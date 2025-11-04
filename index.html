@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TabSense — Dashboard</title>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>TabSense — Focus Dashboard</h1>
+    <div id="lastUpdated" class="last-updated">Last updated: —</div>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Focus Ratio</h2>
+      <canvas id="focusRatioChart" width="400" height="300"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>Session Trend (last 20)</h2>
+      <canvas id="sessionTrendChart" width="800" height="300"></canvas>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Built by Intern 3 — TabSense
+  </footer>
+
+  <script type="module" src="./dashboard.js"></script>
+</body>
+</html>
