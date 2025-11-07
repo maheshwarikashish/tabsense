@@ -22,14 +22,16 @@ The data is synced to **Firebase Realtime Database** and visualized through a li
 
  
 ---
-## INTERNS and  Branch responsibilites 
- 
-activity-logger,Intern A,Implement tab focus/blur tracking and idle timer logic.
+ ## 👩‍💻 Interns & Branch Responsibilities
 
-firebase-handler,Intern B,Configure Firebase and implement logic to push tab activity events to the database.
+| Branch | Intern | Responsibility |
+| :-------- | :--------- | :--- |
+| `activity-logger` | Intern A | Implement tab focus/blur tracking and idle timer logic. |
+| `firebase-handler` | Intern B | Configure Firebase and implement logic to push tab activity events to the database. |
+| `ui-dashboard` | Intern C | Build the Chart.js dashboard for visualizing the focus ratio and session trend. |
 
-ui-dashboard,Intern C,Build the Chart.js dashboard for visualizing the focus ratio and session trend.
----
+
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run **TabSense** on your local machine.
